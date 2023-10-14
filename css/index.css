@@ -1,0 +1,120 @@
+
+
+/* Selector universal */
+*{
+    margin: 0%; /*Elimina todo margen que trae por defecto*/
+    padding: 0%; /*Elimina todo relleno que trae por defecto*/
+    
+}
+
+
+/* Eliminar comportamiento en bloque de nav y la div */
+.header-linea{
+    display: inline-block; /*Situa en linea el div y el nav*/
+    padding-right: 22vw; /*Separación a la derecha entre el logo y el menu*/
+}
+
+/* Estilos en el encabezado header:*/
+
+header{
+
+    height: 12vw; /*Altura*/
+    font-size: 1vw; /*Tamaño de texto*/
+    text-align: right;  /*Alinear texto*/
+    position: top; /*POSICIÓN FIJA DEL ENCABEZADO*/
+    width: 100%; /*ANCHO TOTAL DEL ENCABEZADO*/
+    background: linear-gradient(rgba(244, 246, 247, 0.9), rgba(37, 8, 139, 0.8));
+   
+}
+
+/* Menu */
+/* En los hipervínculos del nav eliminar la decoración del texto, color,
+agregar separación entre hipervínculos. */
+
+.menu{
+    text-decoration: none; /*Elimina subrayado*/
+    color:brown;  /*Color texto*/
+    padding-right: 2vw; /*Separación entre hipervinculos*/
+   
+ 
+}
+
+
+/* Estilo para el logo */
+.logo{
+    width: 6vw;  /*Ancho*/
+    height: auto;/*Altura autoajustada, mantiene proporciones*/  
+    padding-top: 2vw;
+    border-radius: 40%;
+
+       
+}
+
+
+.S2{
+   
+    background-color: rgba(225, 236, 243, 0.8);/*Color dondo en la sección*/
+    margin: 2vw 20vw;
+    font-size: 2vw;/*Tamaño de texto*/
+    border-radius:20% 20% 20% 20%;
+}
+
+.parrafo1{
+    padding: 7vw 7vw 2vw 7vw;
+}
+
+.clip2{
+    
+    padding: 4vw 20vw;
+    background-color: black;
+    border-radius: 50vw 50vw 50vw 50vw;
+}
+
+
+/* Pie de página: color de fondo, altura, tamaño de fuente,
+color de texto alineación de texto.
+color: rgba(0,0,0,0.9) */
+footer{
+    background-color: rgba(0,0,0,0.8);
+    height: 25vh; /*Altura*/
+    text-align: center; /*Alinear texto*/
+    color: aliceblue; /*Color del texto*/
+}
+
+.texto-pie{
+    padding-top: 8vh; /*Agrega separación del borde del pie de página al texto*/
+    font-size: 2vw; /*Tamaño de fuente*/
+}
+
+
+
+/* Selector por etiqueta
+aplicar estilo al título, agregar: color y tamaño */
+h1{
+    color:rgba(39, 99, 245, 0.8);/* Color compuesto por tres canales: rojo, verde, azul yel canal alfa
+    que es la intensidad de la luz*/
+    font-size: 3vw;  /*Tamaño de texto*/
+    padding-top: 1vw;
+    
+  
+    
+}
+
+
+
+
+
+.linea-s1{
+    display: inline-block;/*ELIMINA EL COMPORTAMIENTO EN BLOQUE DE LOS DIV */
+    padding-top: 5vh;
+       
+}
+
+#t1{
+    padding-left: 25vw;
+
+}
+
+#t2{
+    padding-left: 39vw;
+}
