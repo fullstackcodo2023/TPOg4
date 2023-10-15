@@ -11,7 +11,7 @@
 /* Eliminar comportamiento en bloque de nav y la div */
 .header-linea{
     display: inline-block; /*Situa en linea el div y el nav*/
-    padding-right: 27vw; /*Separación a la derecha entre el logo y el menu*/
+    padding-right: 24vw; /*Separación a la derecha entre el logo y el menu*/
 }
 
 /* Estilos en el encabezado header:*/
