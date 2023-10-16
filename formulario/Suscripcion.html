@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/suscripcion.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header><!--  Encabezado con logo y menú de navegación -->
+        <div class="header-linea">
+            <img class="logo" src="../img/icon/logo1.jpg" alt="logo cocineros">
+        </div>
+
+        <!-- Menú de navegación -->
+        <nav class="header-linea">
+            <a class="menu" href="../index.html"><img class="icons" src="../img/icon/hogar.png" width="40vw"
+                    alt="home"></a>
+            <a class="menu" href="../templates/galeria.html">Las recetas más votadas</a>
+            <a class="menu" href="../templates/recetas.html">Recetario</a>
+            <a class="menu" href="../templates/Suscripcion.html">Suscripción</a>
+            <a class="menu" href="../templates/Contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+
+    <main class="formulario">
+        <div class="container">
+            <form>
+                <div class="row g-4 m-4 pb-3 border bg-light bg-gradient">
+
+                    <div class="col-md-4">
+                        <label for="inputEmail4" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="inputEmail4">
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="inputPassword4" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="inputPassword4">
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="inputPais" class="form-label">País</label>
+                        <select id="inputPais" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>Argentina</option>
+                            <option>Brasil</option>
+                            <option>Chile</option>
+                            <option>Colombia</option>
+                            <option>Ecuador</option>
+                            <option>Uruguay</option>
+                            <option>Venezuela</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-12">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="name@example.com">
+                    </div>
+
+                    <div>
+                        <h7>Seleccione las categorias de interés</h7>
+                        <div class="col-md-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Carnes
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Pastas y arroces
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Vegetariano
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Pasteleria
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Postres
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <label for="comment" class="form-label">Comentarios</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </main>
+
+
+    <footer><!-- Pie de página -->
+        <div>
+            <h3 class="texto-pie">Título de la Web...</h3>
+        </div>
+
+        <nav class="footer-menu">
+            <a class="menu" href="../index.html"><img src="../img/icon/deshacer.png" width="25vw" alt="back"> Volver</a>
+            <a class="menu" href="../templates/galeria.html">Las recetas más votadas</a>
+            <a class="menu" href="../templates/recetas.html">Recetario</a>
+            <a class="menu" href="../templates/Suscripcion.html">Suscripción</a>
+            <a class="menu" href="../templates/Contacto.html">Contacto</a>
+        </nav>
+        <div class="icon-redes">
+            <!-- ICONO DE FLATICON https://fontawesome.com/-->
+            <i class="fa-brands fa-square-facebook" style="font-size: 5vw;"></i>
+            <i class="fa-brands fa-twitter" style="font-size: 5vw;"></i>
+            <i class="fa-brands fa-instagram" style="font-size: 5vw;"></i>
+        </div>
+    </footer>
+
+    <!-- TRAER ICONOS DE  fontawesome-->
+    <script src="https://kit.fontawesome.com/b75777cf68.js" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
