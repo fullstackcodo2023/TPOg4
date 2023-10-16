@@ -1,9 +1,13 @@
-
+@font-face {
+    font-family:"Lora";
+    src: url('../fonts/Lora/static/Lora-Regular.ttf');
+}
 
 /* Selector universal */
 *{
     margin: 0%; /*Elimina todo margen que trae por defecto*/
     padding: 0%; /*Elimina todo relleno que trae por defecto*/
+    font-family: "Lora";
     
 }
 
