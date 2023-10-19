@@ -167,103 +167,104 @@
 
 
         
+      
         <section id="contacto">
             
             <div>
             <H1>CONTACTO</H1>
             </div>
             
-            <main class="formulario">
-        <div class="container">
-            <form id="formulario" onsubmit="return validarFormulario()">
-                <div class="row g-4 m-4 pb-3 border bg-light bg-gradient">
-
-                    <div class="col-md-4">
-                        <label for="nombre" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="nombre" nombre="nombre" placeholder="Escriba su Nombre">
-                    </div>
-
-                    <div class="col-md-4">
-                        <label for="apellido" class="form-label">Apellido</label>
-                        <input type="text" class="form-control" id="apellido" placeholder="Escriba su Apellido">
-                    </div>
-
-                    <div class="col-md-4">
-                        <label for="inputPais" class="form-label">País</label>
-                        <select id="inputPais" class="form-select">
-                            <option selected>Choose...</option>
-                            <option>Argentina</option>
-                            <option>Brasil</option>
-                            <option>Chile</option>
-                            <option>Colombia</option>
-                            <option>Ecuador</option>
-                            <option>Uruguay</option>
-                            <option>Venezuela</option>
-                        </select>
-                    </div>
-
-                    <div class="col-md-12">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
-                    </div>
-
-                    <div>
-                        <h7>Seleccione las categorias de interés</h7>
+            <div class="container">
+                <form id="formulario" onsubmit="return validarFormulario()">
+                    <div class="row g-4 m-4 pb-3 border bg-light bg-gradient">
+    
                         <div class="col-md-4">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck">
-                                <label class="form-check-label" for="gridCheck">
-                                    Carnes
-                                </label>
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" nombre="nombre" placeholder="Escriba su Nombre">
+                        </div>
+    
+                        <div class="col-md-4">
+                            <label for="apellido" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="apellido" placeholder="Escriba su Apellido">
+                        </div>
+    
+                        <div class="col-md-4">
+                            <label for="inputPais" class="form-label">País</label>
+                            <select id="inputPais" class="form-select">
+                                <option selected>Choose...</option>
+                                <option>Argentina</option>
+                                <option>Brasil</option>
+                                <option>Chile</option>
+                                <option>Colombia</option>
+                                <option>Ecuador</option>
+                                <option>Uruguay</option>
+                                <option>Venezuela</option>
+                            </select>
+                        </div>
+    
+                        <div class="col-md-12">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+    
+                        <div>
+                            <h7>Seleccione las categorias de interés</h7>
+                            <div class="col-md-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                        Carnes
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                        Pastas y arroces
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                        Vegetariano
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                        Pasteleria
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                        Postres
+                                    </label>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck">
-                                <label class="form-check-label" for="gridCheck">
-                                    Pastas y arroces
-                                </label>
-                            </div>
+    
+                        <div class="col-md-12">
+                            <label for="comment" class="form-label">Comentarios</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
-                        <div class="col-md-4">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck">
-                                <label class="form-check-label" for="gridCheck">
-                                    Vegetariano
-                                </label>
-                            </div>
+    
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
                         </div>
-                        <div class="col-md-4">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck">
-                                <label class="form-check-label" for="gridCheck">
-                                    Pasteleria
-                                </label>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck">
-                                <label class="form-check-label" for="gridCheck">
-                                    Postres
-                                </label>
-                            </div>
-                        </div>
+    
                     </div>
+                </form>
 
-                    <div class="col-md-12">
-                        <label for="comment" class="form-label">Comentarios</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
+            </div>
 
-                    <div class="col-12">
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                    </div>
-
-                </div>
-            </form>
-
-        </div>
         </section>
 
         <section>
