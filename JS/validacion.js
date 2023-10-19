@@ -2,18 +2,18 @@
 
 function validarFormulario() {
 
-    var name = document.getElementById("name").value.trim();
+    var nombre = document.getElementById("nombre").value.trim();
     var apellido = document.getElementById("apellido").value.trim();
     var email = document.getElementById("email").value.trim();
 
 
-  if(name === "" || apellido === "" || email === ""){
+  if(nombre === "" || apellido === "" || email === ""){
     alert("Complete todos campos del form.")
     return false
   }
 
 
-    var nombreTest = /^[a-zA-Z]+$/.test(name);
+    var nombreTest = /^[a-zA-Z]+$/.test(nombre);
     var apellidoTest = /^[a-zA-Z]+$/.test(apellido);
     var emailTest = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/.test(email);
 
@@ -41,7 +41,9 @@ function validarFormulario() {
     return false;
   }
 
+ 
   // Si todas las validaciones son exitosas, enviar el formulario
   alert("Datos enviados correctamente.")
   return true
 }
+
