@@ -3,6 +3,7 @@
     width: 50vw;
     border-collapse: collapse; 
     margin-top: 2vw;
+    margin-left: 2vw;
 }
 
 #chefs-table th, td {
@@ -22,9 +23,11 @@
 
 #chefs{
     padding-top: 1vw;
+    margin-left: 2vw;
     
 }
 
 #buscar{
     margin-top: 2vw;
+    margin-left: 2vw;
 }
