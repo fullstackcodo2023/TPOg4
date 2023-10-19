@@ -484,16 +484,15 @@ h2{
 
 
 
+/*----------------------------------   recetas--------------- */
 
 #recetas{
     width: 98vw;
     height: 100vh;
-    background-color: grey;
+    background-color: rgb(104, 102, 102);
     padding-top: 100px;
 }
 
-
-/*----------------------------------   recetas--------------- */
 
 #dulces{
 font-size: 1.7vw;
@@ -555,6 +554,7 @@ margin-bottom: 1vw;
 
 /*----------------------------------   contacto --------------- */
 #contacto{
+    margin-top:20vw;
     width: 98vw;
     height: 100vh;
     padding-top: 100px;
