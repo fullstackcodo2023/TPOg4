@@ -1,0 +1,30 @@
+/* Estilos para la tabla */
+#chefs-table {
+    width: 50vw;
+    border-collapse: collapse; 
+    margin-top: 2vw;
+}
+
+#chefs-table th, td {
+    padding: 1vw;
+    border: 0.2vw solid #ddd;
+    text-align: left;
+}
+
+#chefs-table th {
+    background-color: #85acaf;
+}
+
+/* Estilos para resaltar filas pares #clientesTable tbody tr:nth-child(even){*/
+#chefs-table tbody tr{
+    background-color: #f4f7f7;
+}
+
+#chefs{
+    padding-top: 1vw;
+    
+}
+
+#buscar{
+    margin-top: 2vw;
+}
