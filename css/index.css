@@ -553,14 +553,15 @@ margin-bottom: 1vw;
 
 
 /*----------------------------------   contacto --------------- */
-#contacto{
-    margin-top:20vw;
-    width: 98vw;
-    height: 100vh;
-    padding-top: 100px;
+
+.mapa{
+    width: 33vw;
+    height:25vh;
+    margin-left: 15vw;
+    margin-top: 5vh;
+    margin-bottom: 55vh;
+
 }
-
-
 
 
 /*----------------------------------   footer --------------- */
