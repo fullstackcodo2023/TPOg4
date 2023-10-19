@@ -560,8 +560,15 @@ margin-bottom: 1vw;
     margin-left: 15vw;
     margin-top: 5vh;
     margin-bottom: 55vh;
-
 }
+
+.api{
+	 margin-top: 5vh;
+	 margin-left: 15vw;
+	 margin-bottom: 55vh;
+}
+
+
 
 
 /*----------------------------------   footer --------------- */
@@ -708,10 +715,6 @@ footer{
 #powered a:hover{
 	text-shadow: 1px 1px 5px rgb(37, 190,
 	 163);
-}
-
-.api{
-	margin-left: 20vw;
 }
 
 
