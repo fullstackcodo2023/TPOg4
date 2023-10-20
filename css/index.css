@@ -91,8 +91,8 @@ main{
     width: 98vw;
     margin: auto;
     padding-top: 100px;
-    
-    height: 2740px;
+    height: auto;
+    /* height: 2740px;*/
     background-color: rgba(180, 230, 65, 0.8);
 }
 
