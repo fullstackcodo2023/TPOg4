@@ -11,7 +11,7 @@
 #bodi{
     width: 98vw;
     margin: auto;
-    height: 2000px;
+    height: auto;
     background-color: white;
 }
 
@@ -173,7 +173,7 @@ main{
     text-align: center;
     font-family:'Crimson Text', serif;
     font-size: 2.5vw; 
-    padding-top: 10px;
+    padding-top: 40px;
 }
 
 .contenedor{
@@ -503,7 +503,7 @@ main{
     background-color: rgb(163, 161, 161);
     margin-top: 3vh;
     padding-bottom: 5vw;
-    padding-top: 100px;
+    padding-top: 140px;
    
 }
 
@@ -581,7 +581,7 @@ font-family: 'Crimson Text', serif;
 }
 
 .contacto-form{
-    margin-top: 5vw;
+    margin-top: 7vw;
 }
 
 #titulo-contacto{
@@ -595,14 +595,14 @@ font-family: 'Crimson Text', serif;
 /*--------------------------------------------------------*/
 #mapa-titulo{
     text-align: center;
-    margin-top: 10vw;
+    margin-top: 2vw;
     color: rgba(88, 59, 195, 0.8);
 }
 .mapa{
     width: 33vw;
     height:25vh;
     margin-left: 15vw;
-    margin-top: 10vh;
+    margin-top: 3vh;
     
 }
 
@@ -668,7 +668,8 @@ font-family: 'Crimson Text', serif;
 }
 
 #final{
-    margin-top: 10vw;
+    margin-top: 5vw;
+    padding-bottom: 1vw;
 }
 
 /*----------------------------------   footer --------------- */
@@ -816,23 +817,4 @@ footer{
 	text-shadow: 1px 1px 5px rgb(37, 190,
 	 163);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
