@@ -488,9 +488,11 @@ h2{
 
 #recetas{
     width: 98vw;
-    height: 150vh;
+    height: 25vh;
     background-color: rgb(104, 102, 102);
-    padding-top: 50px;
+    margin-top: 5vh;
+    margin-botton: 55vh;
+   
 }
 
 
@@ -558,14 +560,14 @@ margin-bottom: 1vw;
     width: 33vw;
     height:25vh;
     margin-left: 15vw;
-    margin-top: 100vh;
-    margin-bottom: 10vh;
+    margin-top: 5vh;
+    margin-bottom:55vh;
 }
 
 .api{
-	 margin-top: 100vh;
+	 margin-top: 5vh;
 	 margin-left: 15vw;
-	 margin-bottom: 5vh;
+	 margin-bottom: 55vh;
 }
 
 
