@@ -91,8 +91,8 @@ main{
     width: 98vw;
     margin: auto;
     padding-top: 100px;
-    height: auto;
-    /* height: 2740px;*/
+    
+    height: 2740px;
     background-color: rgba(180, 230, 65, 0.8);
 }
 
@@ -488,7 +488,7 @@ h2{
 
 #recetas{
     width: 98vw;
-    height: 120vh;
+    height: 150vh;
     background-color: rgb(104, 102, 102);
     padding-top: 50px;
 }
@@ -558,12 +558,12 @@ margin-bottom: 1vw;
     width: 33vw;
     height:25vh;
     margin-left: 15vw;
-    margin-top: 50vh;
+    margin-top: 100vh;
     margin-bottom: 10vh;
 }
 
 .api{
-	 margin-top: 50vh;
+	 margin-top: 100vh;
 	 margin-left: 15vw;
 	 margin-bottom: 5vh;
 }
