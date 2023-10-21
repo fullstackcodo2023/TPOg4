@@ -30,20 +30,14 @@ header{
     width: 60px;
     height: 60px;
     padding-top: 0.7vw;
-    /*border-radius: 50px;  */
     margin-left: 30px;
-    /*background-image: url(../img/blue.jpg);*/
+
 }
 
 #logo{
-        /*width: 6vw;  
-        height: auto; 
-        padding-top: 0.7vw;*/
         border-radius: 50px;  
         width: 80px;
         height: 80px;
-        /*clip-path: circle(33.5% at 50% 50%);*/
-        /*margin-left: 30px;*/
 }
 
 #nombre_pagina{
@@ -83,8 +77,7 @@ header{
 #nav_container ul li a:hover{
 	background-color: rgb(245, 229, 139);
 	color: #1D282C;
-
-	transform: scale(1.2) /*rotate(45deg)*/ /*translateY(0.6vh)*/ /*skewX(10deg)*/;
+	transform: scale(1.2) 
 	transition: transform 0.3s;
     box-shadow: 1px 1px 20px 9px rgb(235, 220, 191);
 }
@@ -96,7 +89,6 @@ main{
     padding-top: 100px;
     background-color: rgb(161, 159, 159);
     height: auto;
-    /*height: 2740px;*/
     
 }
 
@@ -105,9 +97,6 @@ main{
     height: 100vh;
     padding-top: 100px;
     margin-top: -100px;
-	
-    /*background-color: rgba(88, 59, 195, 0.8);*/
-    /*background-color: gray;*/
     background-color: rgb(163, 161, 161);
 }
 
@@ -118,18 +107,15 @@ main{
 
 }
 
-/*#text{
-    width: 80vw;
-}*/
+
 
 #bienvenido{
     text-align: center;
     font-size: 2.5vw;
     padding-top: 5vh;
-    /*color: black;*/
+
     color: rgba(88, 59, 195, 0.8);
     width: 98vw;
-    /*margin: auto;*/
     font-family: 'Crimson Text', serif;
     
 }
@@ -160,8 +146,6 @@ main{
 #galeria{
     width: 98vw;
     height: 120vh;
-    /*background-color: black;*/
-    /*background-color: rgb(130, 129, 129);*/
     background-color: rgb(161, 159, 159);
     margin: auto;
     padding-top: 100px;
@@ -177,14 +161,14 @@ main{
 }
 
 .contenedor{
-    /*width: 92vw;*/
+
     width: 96vw;
     height: 90vh;
     margin-top: 2vh;
     margin-right: auto;
     margin-left: auto;
     padding-top: 2vh;
-    /*padding-bottom: 0.2vh;*/
+
 
     display: grid;
     grid-template-columns: repeat(autofit, 5, 1fr);
@@ -401,11 +385,8 @@ main{
         margin-top: 1vh;
         margin-right: auto;
         margin-left: auto;
-        /*padding-top: 5vh;*/
-    
         display: grid;
         grid-template-columns: repeat( 1, 1fr);
-        /*grid-template-rows: auto;*/
         grid-auto-rows: 1fr;
         gap: 0.4vw;
     }
@@ -581,7 +562,6 @@ font-family: 'Crimson Text', serif;
     width: 98vw;
     height: auto;
     background-color: rgb(158, 156, 156);
-    /*margin-top: 3vh;*/
     padding-bottom: 5vw;
     padding-top: 35px;
 
@@ -702,7 +682,7 @@ footer{
 	width: 350px;
 	height: 150;
 	color: black;
-	/*font-family: 'Ibarra Real Nova', serif;*/
+	
 }
 
 
@@ -716,7 +696,7 @@ footer{
 
 #redes p{
 	color:black;
-	/*font-family: 'Ibarra Real Nova', serif;*/
+	
 }
 
 #redes ul{
@@ -742,7 +722,6 @@ footer{
     color:#25bea3 ;
     border-radius: 200px;
     margin-left: 21px;
-    /*font-family: 'Ibarra Real Nova', serif;*/
 }
 
 #redes ul li a:hover{
@@ -754,7 +733,7 @@ footer{
     margin-left: 7px;  
     width: 50px;
     height: 50px;
-    background-image: url(../img/fb.png);
+    background-image: url(../img/icon/fb.png);
     background-repeat: no-repeat;
 }
 
@@ -767,7 +746,7 @@ footer{
     margin-left: 7px;  
     width: 50px;
     height: 50px;
-    background-image: url(../img/in.png);
+    background-image: url(../img/icon/in.png);
     background-repeat: no-repeat;
 }
 
@@ -781,7 +760,7 @@ footer{
     margin-left: 7px;  
     width: 50px;
     height: 50px;
-    background-image: url(../img/wh.png);
+    background-image: url(../img/icon/wh.png);
     background-repeat: no-repeat;
 }
 
@@ -804,7 +783,7 @@ footer{
 	color:white ;
 	float: left;
 	margin-top: 65px;
-	/*font-family: 'Ibarra Real Nova', serif;*/
+	
 }
 
 #powered a{
@@ -812,7 +791,6 @@ footer{
 	width: 170px;
 	margin-top: 62px;
 	margin-left: 10px;
-    /*font-family: 'Grechen Fuemen', serif;*/
     font-size: 20px;
     font-weight: bold;
 	color: #25bea3;
