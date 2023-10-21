@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Crimson Text', serif;
     scroll-behavior: smooth;
+    text-decoration: none;
     
 }
 
@@ -13,6 +14,7 @@
     margin: auto;
     height: auto;
     background-color: white;
+    text-decoration: none;
 }
 
 header{
@@ -89,6 +91,7 @@ main{
     padding-top: 100px;
     background-color: rgb(161, 159, 159);
     height: auto;
+    text-decoration: none;
     
 }
 
@@ -120,7 +123,7 @@ main{
     
 }
 
-#verso{
+#inicio{
     text-align: justify;
     font-size: 1.5vw;
     padding-top: 3.5vh;
@@ -131,9 +134,9 @@ main{
 }
 
 #video_container{
-    width: 45vw;
+    width: 40vw;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 5vw;
 }
 
 #cocinerito{
@@ -168,8 +171,6 @@ main{
     margin-right: auto;
     margin-left: auto;
     padding-top: 2vh;
-
-
     display: grid;
     grid-template-columns: repeat(autofit, 5, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -322,11 +323,6 @@ main{
 }
 
 
-
-
-
-
-
 @media all and (min-width: 600px) and (max-width: 1199px){
     #galeria{
         width: 100vw;
@@ -366,10 +362,6 @@ main{
 	
     }
 }
-
-
-
-
 
 
 @media all and (max-width: 599px){
@@ -471,11 +463,6 @@ main{
 
     
 
-
-
-
-
-
 /*----------------------------------   recetas--------------- */
 
 #recetas{
@@ -485,6 +472,8 @@ main{
     margin-top: 3vh;
     padding-bottom: 5vw;
     padding-top: 140px;
+    text-decoration: none;
+   
    
 }
 
@@ -492,6 +481,8 @@ main{
 #dulces{
 font-size: 1.7vw;
 font-weight: bold;
+text-decoration: none;
+
 }
 
 
@@ -499,12 +490,7 @@ font-weight: bold;
 font-size: 1.7vw;
 font-weight: bold;
 }
-#clip2{
-    padding-top: 5vw;
-    padding-bottom: 14vw;
-    padding-left: 20vw;
 
-}
 
 #gourmet{
 font-size: 1.7vw;
@@ -529,14 +515,21 @@ font-size: 3vw;
 font-family: 'Crimson Text', serif; 
 }
 
+#listas-recetas{
+    text-decoration: none;
+    color: black;
+}
+
 .sec1{
     margin-bottom: 2vw;
     padding-left: 2vw;
+    text-decoration: none;
 }
 
 .sec2{
     margin-bottom: 2vw;
     padding-left: 2vw;
+    text-decoration: none;
 }
 
 .sec3{
@@ -593,7 +586,7 @@ font-family: 'Crimson Text', serif;
     
 }
 
-/*-------------------------------------------------*/
+/*---------------------- API ---------------------------*/
 .api{
 
 	 margin-top: 1vw;
