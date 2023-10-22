@@ -19,7 +19,7 @@ header{
     width: 98vw;
     margin: auto;
     height: 15vh;
-    background: linear-gradient(rgba(45, 13, 161, 0.8),rgba(244, 246, 247, 0.9));  
+    background: linear-gradient(rgba(45, 13, 161, 0.8),rgba(244, 246, 247, 0.9));
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -69,7 +69,7 @@ header{
 	text-align: center;
 	text-decoration: none;
 	color: black;
-    background-color: rgb(37, 190, 163) ;
+    background-color: rgb(37, 190, 163);
 	border-radius: 60px;
 	transition: background-color 0.4s; color: 0.4s;
 }
@@ -187,14 +187,14 @@ footer{
     text-decoration: none;
     box-sizing: border-box;
     padding-top: 7px;
-    color:#25bea3 ;
+    color:#25bea3;
     border-radius: 200px;
     margin-left: 21px;
 }
 
 #redes ul li a:hover{
 	box-shadow: 1px 1px 30px 5px #25bea3;
-	color:#7396a5 ;
+	color:#7396a5;
 }
 
 #face{
@@ -267,7 +267,6 @@ footer{
 }
 
 #powered a:hover{
-	text-shadow: 1px 1px 5px rgb(37, 190,
-	 163);
+	text-shadow: 1px 1px 5px rgb(37, 190, 163);
 }
 
