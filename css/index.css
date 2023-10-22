@@ -79,7 +79,7 @@ header{
 #nav_container ul li a:hover{
 	background-color: rgb(245, 229, 139);
 	color: #1D282C;
-	transform: scale(1.2) 
+	transform: scale(1.2);
 	transition: transform 0.3s;
     box-shadow: 1px 1px 20px 9px rgb(235, 220, 191);
 }
