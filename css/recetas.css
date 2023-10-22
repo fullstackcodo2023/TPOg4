@@ -19,7 +19,7 @@ header{
     width: 98vw;
     margin: auto;
     height: 15vh;
-    background: linear-gradient(rgba(45, 13, 161, 0.8),rgba(244, 246, 247, 0.9));
+    background: linear-gradient(rgba(45, 13, 161, 0.8), rgba(244, 246, 247, 0.9));
     display: flex;
     justify-content: space-between;
     position: fixed;
