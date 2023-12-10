@@ -1,0 +1,271 @@
+*{
+    margin: 0%; 
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Crimson Text', serif;
+    scroll-behavior: smooth;
+    
+}
+
+
+#bodi{
+    width: 98vw;
+    margin: auto;
+    height: auto;
+    background-color: white;
+}
+
+header{
+    width: 98vw;
+    margin: auto;
+    height: 15vh;
+    background: linear-gradient(rgba(45, 13, 161, 0.8), rgba(244, 246, 247, 0.9));
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 5;
+}
+
+#logo_container{
+    width: 60px;
+    height: 60px;
+    padding-top: 0.7vw;
+    margin-left: 30px;
+
+}
+
+#logo{
+        border-radius: 50px;  
+        width: 80px;
+        height: 80px;
+}
+
+#nombre_pagina{
+    color: rgba(88, 59, 195, 0.8);
+    font-size: 4vw;  
+    padding-top: 3.5vh;
+    margin-right: 5vw;
+    margin-left: 1vw;
+}
+
+#nav_container{
+    width: 40vw;
+    padding-top: 3vw;
+}
+
+#nav_container ul{
+    margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+#nav_container ul li a{
+	width: 90px;
+	height: 25px;
+	display: block;
+	margin-right: 20px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+    background-color: rgb(37, 190, 163);
+	border-radius: 60px;
+	transition: background-color 0.4s; color: 0.4s;
+}
+
+#nav_container ul li a:hover{
+	background-color: rgb(245, 229, 139);
+	color: #1D282C;
+	transform: scale(1.2) 
+	transition: transform 0.3s;
+    box-shadow: 1px 1px 20px 9px rgb(235, 220, 191);
+}
+
+
+main{
+    width: 98vw;
+    margin: auto;
+    padding-top: 10vh;
+    background-color: rgb(161, 159, 159);
+    height: auto;
+}
+
+#recetas{
+    width: 98vw;
+    height: auto;
+    background-color: rgb(163, 161, 161);
+    margin-top: 3vw;
+    padding-bottom: 5vw;
+    padding-top: 2vw;
+    
+}
+
+#receta{
+    text-align: center;
+   
+}
+#pasos{
+    padding-left: 5vw;
+    
+}
+
+h2{
+    padding-left: 2vw;
+    padding-top: 2vw;
+}
+
+h4{
+    padding-left: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+}
+
+ul{
+    padding-left: 6vw;
+}
+
+
+
+/*----------------------------------   footer --------------- */
+
+footer{
+	height: 150px;
+	background-color: #1D282C;
+	display: flex;
+    justify-content: space-around;
+	background: linear-gradient(rgba(244, 246, 247, 0.9), rgba(45, 13, 161, 0.8));
+}
+
+#legales{
+	height: 150px;
+	width: 350px;
+	margin-right: 75px;
+	margin-left: 50px;
+	display: flex;
+	align-items: center;
+}
+
+#legales p{
+	width: 350px;
+	height: 150;
+	color: black;
+	
+}
+
+
+#redes{
+	height: 150px;
+	width: 400px;
+	margin-right: 25px;
+	display: flex;
+	align-items: center;
+}
+
+#redes p{
+	color:black;
+	
+}
+
+#redes ul{
+	width: 340px;
+	height: 60px;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+#redes ul li{
+	display: inline;
+}
+
+#redes ul li a{
+	height: 62px;
+	width: 62px;
+	display: inline-block;
+	background-color: #25bea3;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding-top: 7px;
+    color:#25bea3;
+    border-radius: 200px;
+    margin-left: 21px;
+}
+
+#redes ul li a:hover{
+	box-shadow: 1px 1px 30px 5px #25bea3;
+	color:#7396a5;
+}
+
+#face{
+    margin-left: 7px;  
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/icon/fb.png);
+    background-repeat: no-repeat;
+}
+
+#face:hover{
+    transform: scale(1.2) rotate(360deg);
+	transition: transform 0.4s;
+}
+
+#inst{
+    margin-left: 7px;  
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/icon/in.png);
+    background-repeat: no-repeat;
+}
+
+#inst:hover{
+    transform: scale(1.2) rotate(360deg);
+	transition: transform 0.4s;
+}
+
+
+#what{
+    margin-left: 7px;  
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/icon/wh.png);
+    background-repeat: no-repeat;
+}
+
+#what:hover{
+    transform: scale(1.2) rotate(360deg);
+	transition: transform 0.4s;
+}
+
+
+
+#powered{
+	height: 150px;
+	width: 275px;
+	margin-top: 50px;
+}
+
+#powered p{
+	height: 25px;
+	width: 80px;
+	color:white ;
+	float: left;
+	margin-top: 65px;
+	
+}
+
+#powered a{
+	height: 25px;
+	width: 170px;
+	margin-top: 62px;
+	margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+	color: #25bea3;
+	text-decoration: none;
+	float: left;
+}
+
+#powered a:hover{
+	text-shadow: 1px 1px 5px rgb(37, 190, 163);
+}
