@@ -3,7 +3,7 @@ const { createApp } = Vue
 createApp({
     data() {
         return {
-            url: "http://127.0.0.1:5000/personas",
+            url: "http://127.0.0.1:5000/usuarios",
             personas: [],
             error: false,
             cargando: true
@@ -30,7 +30,7 @@ createApp({
         },
         // el id se necesita para buscar en la DB y eliminarlo
         eliminar(id) {
-            const url = 'http://localhost:5000/borrar/' + id;
+            const url = 'http://localhost:5000/borrar_usuario/' + id;
             var options = {
                 method: 'DELETE',
             }

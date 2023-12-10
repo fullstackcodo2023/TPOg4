@@ -41,7 +41,7 @@ function registrar_usuario() {
             }
 
 
-            let url = "http://localhost:5000/registro"
+            let url = "http://localhost:5000/registro_usuario"
             var options = {
                 body: JSON.stringify(datos),
                 method: 'POST',
