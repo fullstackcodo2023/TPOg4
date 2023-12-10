@@ -26,7 +26,7 @@ function registrar_usuario() {
     fetch(url1)
         .then(response => response.json())
         .then(data => {
-            // console.log(data);
+
 
             for (let i = 0; i < data.length; i++) {
                 if (data[i].nombre === usuario_ingresado || usuario_ingresado === "admin") {
@@ -35,15 +35,11 @@ function registrar_usuario() {
                     return false
                 }
             }
-            // alert("Usuario y / o contraseña no encontrados")
-            // window.location.reload();
-            // return false; // Usuario y/o contraseña no encontrados
-
             let datos = {
                 nombre: usuario_ingresado,
                 password: password_ingresado
             }
-            // console.log(datos);
+
 
             let url = "http://localhost:5000/registro"
             var options = {
@@ -55,12 +51,11 @@ function registrar_usuario() {
                 .then(function () {
                     console.log("creado")
                     alert("Usuario registrado")
-                    // Devuelve el href (URL) de la página actual
+                   
                     window.location.href = "../templates/login.html";
 
                 })
                 .catch(err => {
-                    //this.errored = true
                     alert("Error al grabar")
                     console.error(err);
                 })
@@ -72,33 +67,4 @@ function registrar_usuario() {
             console.error(err);
 
         });
-
-
-    // console.log(nombre_ingresado, password_ingresado);
-
-    // let datos = {
-    //     nombre: nombre_ingresado,
-    //     password: password_ingresado
-    // }
-    // console.log(datos);
-
-    // let url = "http://localhost:5000/registro"
-    // var options = {
-    //     body: JSON.stringify(datos),
-    //     method: 'POST',
-    //     headers: { 'Content-Type': 'application/json' },
-    // }
-    // fetch(url, options)
-    //     .then(function () {
-    //         console.log("creado")
-    //         alert("Usuario registrado")
-    //         // Devuelve el href (URL) de la página actual
-    //         window.location.href = "./inicio_sesion.html";
-
-    //     })
-    //     .catch(err => {
-    //         //this.errored = true
-    //         alert("Error al grabar")
-    //         console.error(err);
-    //     })
 }
