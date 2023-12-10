@@ -1,0 +1,87 @@
+/* * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Crimson Text', serif;
+    scroll-behavior: smooth;
+    text-decoration: none;
+
+} */
+
+
+/* #bodi {
+    width: 98vw;
+    margin: auto;
+    height: auto;
+    background-color: white;
+    text-decoration: none;
+} */
+
+header {
+    width: 100vw;
+    margin: auto;
+    height: 15vh;
+    background: linear-gradient(rgba(45, 13, 161, 0.8), rgba(244, 246, 247, 0.9));
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 5;
+}
+
+#logo_container {
+    width: 60px;
+    height: 60px;
+    padding-top: 0.7vw;
+    margin-left: 30px;
+
+}
+
+#logo {
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+}
+
+#nombre_pagina {
+    color: rgba(88, 59, 195, 0.8);
+    font-size: 3vw;
+    padding-top: 3.5vh;
+    margin-right: 5vw;
+    margin-left: 1vw;
+}
+
+#nav_container {
+    width: 40vw;
+    padding-top: 3vw;
+}
+
+#nav_container ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav_container ul li a {
+    width: 90px;
+    height: 25px;
+    display: block;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(37, 190, 163);
+    border-radius: 60px;
+    transition: background-color 0.4s;
+    color: 0.4s;
+}
+
+#nav_container ul li a:hover {
+    background-color: rgb(245, 229, 139);
+    color: #1D282C;
+    transform: scale(1.2);
+    transition: transform 0.3s;
+    box-shadow: 1px 1px 20px 9px rgb(235, 220, 191);
+}
+
