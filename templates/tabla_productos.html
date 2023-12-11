@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/tabla_productos.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header id="header"></header>
+
+    <main>
+
+        <section class="container">
+            <div id="app" >
+
+                <!-- Botón Nuevo -->
+                <a class="nuevo" href="templates/ingresar_producto.html">Nuevo</a>
+
+                <section v-if="error">Lo sentimos se produjo un error</section>
+                <section v-else>
+                    <section v-if="cargando">
+                        <p>Cargando .....</p>
+
+                    </section>
+
+                    <section v-else>
+                        
+                        <div >
+                            <table class="tabla">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Autor</th>
+                                        <th>Título receta</th>
+                                        <th>Receta</th>
+                                        <th>Notas</th>
+                                        <th>Imagen</th>
+                                        <th>Acciones</th>
+                                        <th>Acciones</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                   
+                                    <tr v-for="producto in productos">
+                                        <td >{{producto.id}}</td>
+                                        <td>{{producto.nombre}}</td>
+                                        <td>{{producto.titulo}}</td>
+                                        <td>{{producto.receta}}</td>
+                                        <td>{{producto.notas}}</td>
+                                        <td>
+                                            <img :src="producto.imagen" alt="">
+                                        </td>
+                                        <td>
+                                            <button type="button"  v-on:click="eliminar(producto.id)">Eliminar</button>
+                                        </td>
+                                        <td>
+                                            <a class="boton" :href="'editar_producto.html?id='+ producto.id+'&nombre=' +producto.nombre+'&titulo=' +producto.titulo+'&receta=' +producto.receta+'&notas=' +producto.notas+'&imagen=' +producto.imagen">Editar</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+                </section>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer></footer>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <script src="js/tabla_productos.js"></script>
+    <script src="js/header.js"></script>
+</body>
+</html>
