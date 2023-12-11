@@ -16,7 +16,7 @@ function iniciar_sesion() {
 
             for (let i = 0; i < data.length; i++) {
                 if (data[i].nombre === nombre_ingresado && data[i].password === password_ingresado) {
-                    return window.location.href = "./pizza.html"; // Usuario y contraseña encontrados
+                    return window.location.href = "./ingreso.html"; // Usuario y contraseña encontrados
                 }
             }
             // return console.log("false") ; // Usuario y/o contraseña no encontrados
