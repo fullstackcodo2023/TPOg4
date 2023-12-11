@@ -35,9 +35,9 @@ header{
 }
 
 #logo{
-        border-radius: 50px;  
-        width: 80px;
-        height: 80px;
+    border-radius: 50px;  
+    width: 80px;
+    height: 80px;
 }
 
 #nombre_pagina{
@@ -89,6 +89,22 @@ main{
     padding-top: 10vh;
     background-color: rgb(161, 159, 159);
     height: auto;
+}
+
+.ingreso{
+width: 98vw;
+height: 20vh;
+background-color: rgb(163, 161, 161);
+margin-top: 15vh;
+margin-left: 46vw;
+align-items: center;
+}
+
+#ingreso
+{
+text-align: center;
+padding-bottom: 5vw;
+
 }
 
 #recetas{
