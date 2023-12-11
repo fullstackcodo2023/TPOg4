@@ -2,7 +2,7 @@ function registrar_usuario() {
     let usuario_ingresado = document.getElementById("username").value
     let password_ingresado = document.getElementById("password").value
 
-    const url1 = "http://127.0.0.1:5000/personas";
+    const url1 = "http://127.0.0.1:5000/usuarios";
 
     if (usuario_ingresado === "" || password_ingresado === "") {
         alert("Complete todos los campos.")
